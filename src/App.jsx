@@ -1,10 +1,9 @@
 import { useState } from 'react';
-import 
+import CardPokemon from './components/CardPokemon';
+import api from './services/api';
 import './App.css';
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <div className="App">
       <h1>Pokemons 1ª Geração</h1>
