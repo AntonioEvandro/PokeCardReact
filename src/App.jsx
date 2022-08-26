@@ -9,6 +9,9 @@ function App() {
       <h1>Pokemons 1ª Geração</h1>
       <div class="cards">
         <CardPokemon />
+        <CardPokemon />
+        <CardPokemon />
+        <CardPokemon />
       </div>
     </div>
   );
